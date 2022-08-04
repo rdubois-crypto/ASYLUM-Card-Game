@@ -1,0 +1,290 @@
+%!TEX root = lot1.tex
+
+%--------------------------CARTES MALUS-------------------------------------------------------------------------------------------------
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Kiosque DSI};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_26_kiosquedsi.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Conservez cette carte devant vous. Lors de votre UO, vous pouvez forcer chaque joueur à révéler une carte. Les joueurs qui obtiennent la plus faible valeur se lèvent, piochent une carte, la frottent contre le kiosque et retournent s’asseoir le cœur rempli de haine. Cette carte reste active jusqu'à ce que la carte `Changement d'Outils' soit jouée.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{6}``Vous avez essayé de redémarrer votre ordinateur ?''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Bureau de sécurité};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_27_securite.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Conservez cette carte devant vous. Lors de votre UO, lorsqu'un joueur joue une carte et que le bureau est vide, vous pouvez révéler trois cartes et sommer leurs valeurs pour déterminer l'heure. S'il est moins de 15h30, placez la carte sous le bureau. Son effet est annulé. Vous rendez la carte au joueur au début de votre prochaine UO.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{6}``Ah non, c'est toi qui y va cette fois ! C'est pour quoi ?''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Perte d'habilitation};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_28_pertehab.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Le joueur de votre choix perd son habilitation et/ou coffre qui vont à la défausse. Il est également déchargé de l'affaire en cours et défausse une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Quelle idée de fréquenter des étrangers aussi ?''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Expiration d'habilitation};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/expiration_habilitation.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Le joueur de votre choix perd son habilitation et/ou coffre qui vont à la défausse. Il est également déchargé de l'affaire en cours et défausse une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Il va falloir renseigner à nouveau tout votre arbre généalogique jusqu'à Charlemagne.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Affaire SD};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_30_AfSD.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Vos équipiers sont passés maîtres dans l'art de faire le mort et c'est hélas à vous qu'incombe de travailler en cage. Le joueur de votre choix pioche deux cartes.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Despite my rage, I'm still just a rat in a cage.''\\ - Billy Corgan.\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Déplacement à Cholet};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_31_Cholet.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Le joueur de votre choix part en mission à Cholet la paradisiaque et pioche immédiatement une carte.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Vous espérez que vos vaccins sont bien à jour.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre %Specifique à cette carte
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont \setsize{7}Grand Méchant Directeur des Opérations\par};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/Dirop.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Cédric Maximus a décelé une erreur de process dans la carte qui vient d'être jouée. Elle est immédiatement annulée et jetée à la défausse et le joueur fautif pioche deux cartes.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{7}``Le manager doit faire un rappel aux autres joueurs de la nécessité d'imputer à temps.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont T'as pas dit Bonjour !};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_33_gourdin.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Pas de temps à perdre ?! Faites piocher une carte au joueur de votre choix pour son manque de savoir-vivre. Il doit également serrer la main de toutes les personnes dans la pièce sous peine d'en piocher une seconde.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``On devrait peut-être le placarder au fond de la zone ?''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Installation sur SPCHIFF};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_34_SPCHIF.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Quel misère, le joueur de votre choix doit installer un logiciel sur SPCHIFF. Fermez les fenêtres pour empêcher le joueur de se suicider et regardez-le peiner et misérablement piocher deux cartes.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Erreur package manquant : pleure !''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Créature du mal};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_35_mal.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Vous avez vendu votre âme pour de l'avancement, ou simplement par goût de la destruction. \'Elaboration de nouveau process, Contract Management, mauvaise foi, tout est bon pour arriver à vos fins. Vous pouvez annuler n'importe quelle carte BONUS ou permanent Bonus qui part à la défausse.\par};
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso

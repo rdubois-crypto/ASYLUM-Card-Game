@@ -1,0 +1,498 @@
+%!TEX root = lot1.tex
+%--------------------------CARTES BONUS-------------------------------------------------------------------------------------------------
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Absence enfant malade};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_1_enfantmalade.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Lorsqu’un joueur impute une carte malus contre vous, vous pouvez choisir d'utiliser immédiatement cette carte afin que le malus s’applique à un troisième joueur choisi par le manager.\par};
+
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Vol business Paris New-York};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_2_vol.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Défaussez une carte. Les autres joueurs piochent une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Vous avez consommé tout le budget conférence de vos collègues. Le confort du voyage compense largement leur mépris à votre égard.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Départ en conférence};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_3_Conference.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Défaussez une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}Vous présentez un article appliqué à Crypto ! ``Unifying Leakage Models on a Rényi Day''.\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Organisation des conférences};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_4_orgaconf.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Interruption)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Lorsqu’un joueur joue une carte départ en conférence ou vol business, vous partez à sa place (vous défaussez à sa place). Vous pouvez aussi être fair et simplement l’imputer sans priver un de vos camarades, parce qu’au fond, vous êtes un gars bien.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Un grand pouvoir implique de grandes responsabilités.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Congés payés};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_5_Congés.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Vous pouvez défausser une carte supplémentaire et aller bronzer pendant que les autres travaillent à votre place.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``923040 ACP est la seule ligne ERP qui vous satisfasse.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Crème br\^{u}lée du jeudi};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_6_Cremebrulee.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Défaussez une carte. Si vous avez fait une thèse en MPC, défaussez-en une deuxième.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Le saviez-vous ? Les contenants carrés ont un volume supérieur !''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Demande KiSS validée !};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_7_KISSOK.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Les dieux sont de votre côté ! Votre demande KiSS à DSI vieille de deux ans vient d'être validée. Défaussez une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Mais est-ce que votre demande de demande KiSS a bien été validée ?''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Cloud Manager !};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_8_Cloudmanager.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Interruption)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Vous attendez de votre équipe une certaine autonomie. Lorsque vous devez piocher une carte, défaussez celle-ci et demandez à un autre joueur de piocher à votre place.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{7}``Tu es vraiment le meilleur pour ce type de tâche. Il vaut mieux que tu le fasses. Je te fais parfaitement confiance.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Obeya};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_9_Obeya.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus 	};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Vous et le cryptologue (doit être présent et autre que vous), faisant habilement semblant de travailler, vous défaussez une carte de votre choix.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Tiens ! Ils ont élevé les tables.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Habilitation SD};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_10_habilitation.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Posez cette carte devant vous en demande. Au début de votre tour, révélez une carte. L'habilitation devient validée si la valeur est paire (seulement si elle vaut 8 si vous êtes Julien). Tant que vous êtes habilité, vous pouvez défausser une carte à la fin de votre tour. \par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Permet l'ouverture de la zone SD.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Habilitation SD};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_11_habilitation.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6}Posez cette carte devant vous en demande. Au début de votre tour, révélez une carte. L'habilitation devient validée si la valeur est paire (seulement si elle vaut 8 si vous êtes Julien). Tant que vous êtes habilité, vous pouvez défausser une carte à la fin de votre tour.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Permet l'ouverture de la zone SD.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Coffre CD (Permanent)};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_12_coffre.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Posez cette carte devant vous en demande. Vous pouvez y ranger vos documents CD, un saucisson, mais également une carte que vous placez dessous. Vous pouvez échanger une carte du coffre SD et de votre main au début de votre tour.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``N'oubliez pas la combinaison.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Serveur Pirate Calcul};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_13_Serveur.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Posez cette carte devant vous. Tant que vous avez le serveur pirate devant vous, l'effet de paralysie du personnage DSI est ignoré s'il tombe sur vous.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``ssh -X julien@calcul.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Grève !! Télétravail et vélo};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_14_velogreve.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Chaque joueur fait le tour de la table puis s'assied une place plus loin. Sauf vous qui êtes en télétravail et défaussez une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Allumez votre communicator avant de lancer Game of Thrones.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Laurent NiceBro'};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_15_LaurentNiceBro.png}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Un manager développeur vous donne un coup de main pour développer une librairie crypto aux interfaces petit poney. Défaussez une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Chemise blanche aussi impeccable que les APIs. C'est le secret.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Résilience au mal};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_16_resistance.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus(Interruption)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Utilisez cette carte pour annuler un effet MALUS ou détruire un permanent MALUS de votre choix.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Process, DSI, collègue toxique, tel un paladin rien ne peut vous arrêter.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_bonus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Dream Team};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_17_Dreamteam.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Bonus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Vous faites partie de LCH. Il n'y a rien à ajouter. Vous méritez de gagner cette partie. Défaussez deux cartes.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Il faudrait être fou pour en partir !''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso

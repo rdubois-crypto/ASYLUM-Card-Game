@@ -1,0 +1,255 @@
+%!TEX root = lot1.tex
+
+
+%--------------------------CARTES NEUTRES------------------------------------------------------------------------------------------------
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Liaison CHOCE};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_37_CHOCE.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Posez cette carte devant vous. Une fois par tour vous pouvez montrer secrètement une carte de votre main à un autre joueur. Il peut alors faire de même et vous échanger la carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}N’oubliez pas de passer par la station blanche.\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Acceptation de lot};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_38_Acceptation.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Devinez puis révélez la parité de la carte en haut du tas. En cas de succès, à vous la gloire, l’EAA brillante et l’admiration de vos collègues. Vous défaussez deux cartes. Sinon vous en piochez deux.\par};
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont DCLIC};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_40_DCLIC.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Vous faites partie du jury innovation. Chaque joueur doit donner le titre bullshit de son invention. Vous décernez le prix au gagnant qui défausse une carte.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}Migration de blockchain post quantique vers un cloud darknet sécurisé anonyme.\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Capitalisation};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_41_capitalisation.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Vous faites capitaliser votre équipe. Pour un tour de table complet, chaque joueur à partir de vous doit capitaliser en répétant la liste de mots énoncée par le joueur précédent plus un mot de son choix. Si un joueur oublie un mot il pioche une carte. \par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Bravo, nos devis seront désormais meilleur (enfin, peut-être).''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Demande de devis};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_42_devis.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Posez une carte face cachée devant vous. Chaque joueur doit deviner le bon chiffre. Le(s) joueur(s) le(s) plus proche(s) défaussent une carte. Les autres en pioche une.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Ca vous apprendra à surcharger un devis !''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont CHORUS 2};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_43_Chorus2.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre (Permanent)};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Chaque joueur invente un processus idiot. En tant qu’ingénieur qualité du tour vous en choisissez un. Le processus devra être appliqué jusqu’à la fin de la partie. Tout joueur qui  oubliera piochera une carte.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}Exemple : commencer chaque tour en passant son badge sur le tas.\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Mauvaise source d’aléa};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_44_badrng.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Chaque joueur pose une carte de son choix devant lui face cachée. Puis les cartes sont révélées, les joueurs pour lesquels une collision existe reprennent la carte puis en pioche une. Les autres se défaussent de la carte posée.\par};
+
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``1,0,1,0,1,0,1,0,1,0''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Exigences mal définies};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/UO_46_maldefini.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{8}Chaque joueur lance un dé, puis en débattant sans fin sur le résultat, le sens de cette phrase, et pour savoir s’il n’y manquerait pas quel pour tant que ni soit. Vous reprenez cette carte en main après l’avoir jouée.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Il faudra faire une réunion pour débrieffer cette réunion.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Réaffectation du plan de charge};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/charge.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre};
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{7}Le joueur avec le moins de cartes en main est décidément le plus productif, manque de chance cela s’est vu ! Le joueur avec le plus de cartes en main lui donne autant de cartes que nécessaire pour que sa main soit de même taille que la deuxième plus grosse main.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{8}``Non mais la c'est figé dans le marbre, enfin jusqu'à ce que ça change.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso

@@ -1,0 +1,69 @@
+\documentclass[parskip]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[paperheight=96mm,paperwidth=71mm,margin=0mm]{geometry}
+\usepackage{xintexpr}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.arrows}
+\usetikzlibrary{fadings}
+\usepackage{pifont}
+\usepackage{graphicx}
+\usepackage{xfp}
+\usepackage{ifthen}
+\usepackage{atbegshi}
+\AtBeginDocument{\AtBeginShipoutNext{\AtBeginShipoutDiscard}} %pour supprimer la premiere page
+
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+
+\begin{document}
+
+\pgfmathsetmacro{\cardroundingradius}{4mm}
+\pgfmathsetmacro{\cardwidth}{6.8}
+\pgfmathsetmacro{\cardheight}{9.3}
+
+\pgfmathsetmacro{\titleX}{3.55}
+\pgfmathsetmacro{\titleY}{8.7}
+\pgfmathsetmacro{\imageX}{3.555}
+\pgfmathsetmacro{\imageY}{6.32}
+\pgfmathsetmacro{\typeX}{3.55}
+\pgfmathsetmacro{\typeY}{4}
+\pgfmathsetmacro{\imageWidth}{159}
+\pgfmathsetmacro{\imageHeight}{115}
+\pgfmathsetmacro{\descriptionX}{.63}
+\pgfmathsetmacro{\descriptionY}{3.7}
+%\pgfmathsetmacro{\punchlineX}{.5}
+%\pgfmathsetmacro{\punchlineY}{1.8}
+\pgfmathsetmacro{\numberX}{5.8}
+\pgfmathsetmacro{\numberY}{.94}
+
+\renewcommand{\titlefont}{}
+\newcommand{\typefont}{\bf}
+\newcommand{\punchlinefont}{\itshape}
+\newcommand{\descriptionfont}{}
+\newcommand{\numberfont}{}
+\newcommand{\setsize}[1]{\fontsize{#1pt}{\fpeval{1*(#1)}pt}\selectfont}
+
+\newcounter{cardctr}
+\newcommand{\cardnumber}{\stepcounter{cardctr}\thecardctr\ifthenelse{\equal{\thecardctr}{8}}{\setcounter{cardctr}{0}}{}}
+
+%VersoPerso
+\newcommand{\versoperso}{ %TODO A recentrer et elargir
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/versoperso.pdf}};
+\end{tikzpicture}}
+
+%Verso
+\newcommand{\verso}{ %TODO A recentrer et elargir
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/verso.pdf}};
+\end{tikzpicture}}
+
+
+%DEBUT DU DOCUMENT
+
+%--------------------------CARTES NEUTRES-----------------------------------------------------------------------------------------------
+\input{neutre2}
+
+
+\end{document}
