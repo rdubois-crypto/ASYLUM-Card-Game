@@ -10,6 +10,11 @@ Each Player start the game with 7 randomly chosen cards among all cards but ANSS
 
 ASYLUM has been developped as a fun game. It is the property of their sole developpers and shall not be printed or reproduced without its creators authorization.
  
+# Credits
+Renaud Dubois: game designer, artistic lead
+
+Aurélien Dupin: technical director
+
 
 ## Bibliography
 Droit Français et satire:
