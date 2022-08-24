@@ -9,7 +9,7 @@ Each Player start the game with 7 randomly chosen cards among all cards but ANSS
 ## Disclaimer
 
 ASYLUM has been developped as a fun game. It is the property of their sole developpers and shall not be printed or reproduced without its creators authorization.
- The game is not intended to be commercialized. 
+ 
 
 ## Bibliography
 Droit Français et satire:
