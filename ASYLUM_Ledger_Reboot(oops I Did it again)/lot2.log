@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  24 AUG 2022 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  25 AUG 2022 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -555,27 +555,27 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 ))
-LaTeX Info: Redefining \bf on input line 17.
+LaTeX Info: Redefining \bf on input line 25.
  (./lot2.aux)
 \openout1 = `lot2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-Package scrbase Info: activating english \contentsname on input line 19.
-Package scrbase Info: activating english \listfigurename on input line 19.
-Package scrbase Info: activating english \listtablename on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+Package scrbase Info: activating english \contentsname on input line 27.
+Package scrbase Info: activating english \listfigurename on input line 27.
+Package scrbase Info: activating english \listtablename on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -779,25 +779,163 @@ Overfull \hbox (10.88364pt too wide) in paragraph at lines 142--143
 [] 
  []
 
-[9] [10 <./images/bus.jpg>]) [11] (./lot2.aux) ) 
+[9] [10 <./images/bus.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 149.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+File: fonds/fond_neutre.png Graphic file (type png)
+<use fonds/fond_neutre.png>
+Package pdftex.def Info: fonds/fond_neutre.png  used on input line 150.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/levreth.jpg, id=98, 289.3209pt x 334.851pt>
+File: images/levreth.jpg Graphic file (type jpg)
+<use images/levreth.jpg>
+Package pdftex.def Info: images/levreth.jpg  used on input line 156.
+(pdftex.def)             Requested size: 159.59935pt x 115.43175pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 157.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 174.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 174--175
+[] 
+ []
+
+[11] [12 <./images/levreth.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 181.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+File: fonds/fond_neutre.png Graphic file (type png)
+<use fonds/fond_neutre.png>
+Package pdftex.def Info: fonds/fond_neutre.png  used on input line 182.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/weekly.jpg, id=109, 478.78876pt x 346.29375pt>
+File: images/weekly.jpg Graphic file (type jpg)
+<use images/weekly.jpg>
+Package pdftex.def Info: images/weekly.jpg  used on input line 188.
+(pdftex.def)             Requested size: 159.59341pt x 115.4292pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 189.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 205.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 205--207
+[] 
+ []
+
+[13] [14 <./images/weekly.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 210.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+<fonds/fond_malus.png, id=121, 793.96625pt x 1111.15125pt>
+File: fonds/fond_malus.png Graphic file (type png)
+<use fonds/fond_malus.png>
+Package pdftex.def Info: fonds/fond_malus.png  used on input line 211.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/vierzon.jpg, id=122, 478.78876pt x 346.29375pt>
+File: images/vierzon.jpg Graphic file (type jpg)
+<use images/vierzon.jpg>
+Package pdftex.def Info: images/vierzon.jpg  used on input line 217.
+(pdftex.def)             Requested size: 159.59341pt x 115.4292pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 218.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 234.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 234--235
+[] 
+ []
+
+[15] [16 <./fonds/fond_malus.png> <./images/vierzon.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 239.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+File: fonds/fond_malus.png Graphic file (type png)
+<use fonds/fond_malus.png>
+Package pdftex.def Info: fonds/fond_malus.png  used on input line 240.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/pizza5.jpg, id=134, 265.49188pt x 134.5025pt>
+File: images/pizza5.jpg Graphic file (type jpg)
+<use images/pizza5.jpg>
+Package pdftex.def Info: images/pizza5.jpg  used on input line 246.
+(pdftex.def)             Requested size: 159.60017pt x 115.43181pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 247.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 263.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 263--264
+[] 
+ []
+
+[17] [18 <./images/pizza5.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 269.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+File: fonds/fond_malus.png Graphic file (type png)
+<use fonds/fond_malus.png>
+Package pdftex.def Info: fonds/fond_malus.png  used on input line 270.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/veau.jpg, id=145, 289.58188pt x 286.57062pt>
+File: images/veau.jpg Graphic file (type jpg)
+<use images/veau.jpg>
+Package pdftex.def Info: images/veau.jpg  used on input line 276.
+(pdftex.def)             Requested size: 159.59749pt x 115.43079pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 277.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 297.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 297--298
+[] 
+ []
+
+[19] [20 <./images/veau.jpg>]) [21] (./lot2.aux) ) 
 Here is how much of TeX's memory you used:
- 20635 strings out of 481239
- 413024 string characters out of 5920377
+ 20676 strings out of 481239
+ 413783 string characters out of 5920377
  763400 words of memory out of 5000000
- 35593 multiletter control sequences out of 15000+600000
- 538474 words of font info for 34 fonts, out of 8000000 for 9000
+ 35626 multiletter control sequences out of 15000+600000
+ 539927 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,113p,10126b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvi
-ps/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1
-095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti07
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb>
-Output written on lot2.pdf (10 pages, 1427249 bytes).
+{/usr/share/texmf/fonts/enc/d
+vips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfb
+x1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0600.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfti0800.pfb>
+Output written on lot2.pdf (20 pages, 2452913 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 191 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
