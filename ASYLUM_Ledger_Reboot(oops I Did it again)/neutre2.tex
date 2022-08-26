@@ -270,7 +270,7 @@
     \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
 
     %Titre
-	\node[anchor=center] at (\titleX,\titleY) {\titlefont Pizza Faille-V};
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Hey, le Veau !};
 
 	%Image
 	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/veau.jpg}};
@@ -296,6 +296,69 @@ et ils lui ont offert des sacrifices.''\par};
 	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
 \end{tikzpicture}\verso %Verso
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SHITCOIN
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_malus.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Shitcoin en baisse};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/shitcoin.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Malus };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6} 
+Oh non ! Le joueur ciblé a trop écouté les conseils d'Adrien et placé des tokens dans un shitcoin qui vient de dégringoler ! Il place l'un des tokens de son Nano dans la défausse\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{6}``Don't worry for him, Adrien avait vendu les siens.''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ANANAS
+\begin{tikzpicture} %Recto
+	%Fond
+    \node[anchor=south west,inner sep=0] (carte) at (0,0) {\includegraphics[width=7.1 cm, height=9.6 cm]{fonds/noir.png}};
+    \node[anchor=center] at (carte.center) {\includegraphics[width=\cardwidth cm, height=\cardheight cm]{fonds/fond_neutre.png}};
+
+    %Titre
+	\node[anchor=center] at (\titleX,\titleY) {\titlefont Hot Ananas !};
+
+	%Image
+	\node[anchor=center] at (\imageX,\imageY) {\includegraphics[width=\imageWidth px, height=\imageHeight px]{images/ananas.jpg}};
+	\node[anchor=center] at (6.1,4.5) {\includegraphics[width=12 px, height=6 px]{fonds2/legacy.jpg}};
+
+	%Type
+	\node[anchor=center] at (\typeX,\typeY) {\typefont Neutre };
+
+	%Description
+	\node[anchor=north west, text width=5.6cm] (description) at (\descriptionX,\descriptionY) {\descriptionfont\setsize{6} 
+N'écoutant que votre bon coeur, et malgré les polémiques autour de ce fruit controversé, vous décidez de contribuer au Pineapple Fund. Prenez un token de votre Nano et mettez le dans la défausse.\par};
+	%Punchline
+	\node[anchor=north west, text width=5.6cm, below = 1pt of description] (punchline) {\punchlinefont\setsize{6}``Cet ananas est très chaud !''\par};
+
+	%Separateur !!!!!PAS TOUCHE!!!!!
+	\fill[black,path fading=west] (description.south west) rectangle (punchline.north);
+	\fill[black,path fading=east] (punchline.north) rectangle (description.south east);
+
+	%Numéro !!!!!PAS TOUCHE!!!!!
+	\node[anchor=center] at (\numberX,\numberY) {\numberfont \cardnumber};
+\end{tikzpicture}\verso %Verso
 
 
 
