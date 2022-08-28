@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  26 AUG 2022 11:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.27)  27 AUG 2022 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,27 +969,54 @@ Overfull \hbox (10.88364pt too wide) in paragraph at lines 361--362
 [] 
  []
 
-[23] [24 <./images/ananas.jpg>]) [25] (./lot2.aux) ) 
+[23] [24 <./images/ananas.jpg>]
+File: fonds/noir.png Graphic file (type png)
+<use fonds/noir.png>
+Package pdftex.def Info: fonds/noir.png  used on input line 368.
+(pdftex.def)             Requested size: 202.04521pt x 273.23077pt.
+File: fonds/fond_malus.png Graphic file (type png)
+<use fonds/fond_malus.png>
+Package pdftex.def Info: fonds/fond_malus.png  used on input line 369.
+(pdftex.def)             Requested size: 193.4755pt x 264.61327pt.
+<images/kickass.jpg, id=181, 803.0pt x 803.0pt>
+File: images/kickass.jpg Graphic file (type jpg)
+<use images/kickass.jpg>
+Package pdftex.def Info: images/kickass.jpg  used on input line 375.
+(pdftex.def)             Requested size: 159.59242pt x 115.42116pt.
+File: fonds2/legacy.jpg Graphic file (type jpg)
+<use fonds2/legacy.jpg>
+Package pdftex.def Info: fonds2/legacy.jpg  used on input line 376.
+(pdftex.def)             Requested size: 12.03314pt x 6.02153pt.
+File: fonds/back.pdf Graphic file (type pdf)
+<use fonds/back.pdf>
+Package pdftex.def Info: fonds/back.pdf  used on input line 393.
+(pdftex.def)             Requested size: 202.01033pt x 273.14122pt.
+
+Overfull \hbox (10.88364pt too wide) in paragraph at lines 393--394
+[] 
+ []
+
+[25] [26 <./images/kickass.jpg>]) [27] (./lot2.aux) ) 
 Here is how much of TeX's memory you used:
- 20688 strings out of 481239
- 414023 string characters out of 5920377
+ 20694 strings out of 481239
+ 414143 string characters out of 5920377
  763400 words of memory out of 5000000
- 35636 multiletter control sequences out of 15000+600000
+ 35641 multiletter control sequences out of 15000+600000
  539927 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,8n,113p,10126b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc
-/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/s
-fbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-rm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0600.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfti0800.pfb>
-Output written on lot2.pdf (24 pages, 2585275 bytes).
+{/usr/share/texmf/fonts/en
+c/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/
+sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0600.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfti0700.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfti0800.pfb>
+Output written on lot2.pdf (26 pages, 2620279 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 225 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 words of extra memory for PDF output out of 10000 (max. 10000000)
 
